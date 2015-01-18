@@ -1,47 +1,44 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h2,
+h3,
+p {
+	margin-bottom: 3px;
 }
 
-/* font background-size: tyles */
-p{
-	font-family: 'Raleway', sans-serif;
-}
-
-h1 {
+/* font styles */
+h1,
+h2,
+h3 {
 	font-family: 'Cinzel Decorative', cursive;
 }
 
-h2, h3{
-	font-family: 'Lora', serif;
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 135%;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 15px 0;
 }
 
 .color-1,
-.color-2,
 .color-3,
 .color-4,
 .color-5,
 .pattern-1,
 .pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
-	border: 1px solid #000;
+.pattern-3 {
 	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	margin: 10px 10px 0 0;
+	height: 75px;
+	width: 75px;
 }
+
 /* floats*/
 .p1, 
 .p2{
-	width: 46%;
+	width: 47%;
 }
 
 .p1 {
@@ -50,10 +47,10 @@ section {
 
 .p2{
 	float: right;
+	margin-top: 60px;
 }
 
-
-/* Color styling*/
+/* Color pattern styling*/
 .color-1 {
 	background-color: #000000;
 }
