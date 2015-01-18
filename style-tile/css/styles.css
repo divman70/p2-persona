@@ -3,6 +3,19 @@ h2, h3, p {
 	margin: 0;
 }
 
+/* font styles */
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+h2, h3{
+	font-family: 'Lora', serif;
+}
+
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -11,6 +24,8 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -24,6 +39,32 @@ section {
 	width: 50px;
 }
 
+/* Color styling*/
+.color-1 {
+	background-color: #000000;
+}
+
+.color-3 {
+	background-color: #FF0000;
+}
+
+.color-4 {
+	background-color: #CF0053;
+}
+
+.color-5 {
+	background-color: #C2C2A3;
+}
+
+/* Second title color */
+em {
+	color: #C2C2A3;
+}
+
+/* link styles */
+a {
+	color: #FF0000;
+}
 
 /* Show Grid */
 .showgrid {
