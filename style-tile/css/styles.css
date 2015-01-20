@@ -1,15 +1,16 @@
 /* Set Your Own Margin & Padding */
-h2,
-h3,
-p {
-	margin-bottom: 3px;
+.pick {
+	margin-top: 15px;
 }
 
+.texturebox {
+	margin-top: 15px;
+}
 /* font styles */
 h1,
 h2,
 h3 {
-	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Rosario', sans-serif;
 }
 
 p {
@@ -18,9 +19,8 @@ p {
 }
 
 body {
-	background-image: url('../img/mochaGrunge.png');
-
-
+	/*background-image: url('../img/otis_redding.png');*/
+	background-color: #FFFFFF;
 }
 
 /* Layout for Style Tile*/
@@ -37,8 +37,6 @@ section {
 .pattern-3 {
 	float: left;
 	margin: 10px 15px 0 0;
-	height: 75px;
-	width: 75px;
 }
 
 /* floats*/
@@ -53,7 +51,7 @@ section {
 
 .p2{
 	float: right;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 /* Color pattern styling*/
@@ -66,18 +64,30 @@ section {
 }
 
 .color-4 {
-	background-color: #CF0053;
+	background-color: #666666;
 }
 
 .color-5 {
-	background-color: #C2C2A3;
+	background-color: #CCCCCC;
+}
+
+
+/* color styles */
+.color-1,
+.color-3,
+.color-4,
+.color-5 {
+	height: 50px;
+	width: 50px;
 }
 
 /* pattern styles */
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 5px solid white;
+	border: 5px solid #666666;
+	height: 100px;
+	width: 100px;
 }
 
 .pattern-1 {
@@ -94,13 +104,14 @@ section {
 
 /* Second title color */
 em {
-	color: #C2C2A3;
+	color: #CCCCCC;
 }
 
 /* link styles */
 a {
 	color: #FF0000;
 }
+
 
 /* Show Grid */
 .showgrid {
