@@ -20,7 +20,7 @@ p {
 }
 
 body {
-	background-image: url('../img/fog.jpg');
+	background-image: url('../img/tree.jpg');
 	/*background-color: #FFFFFF;8*/
 }
 
@@ -105,7 +105,7 @@ section {
 
 /* Second title color */
 em {
-	color: #CCCCCC;
+	color: white;
 }
 
 /* link styles */
