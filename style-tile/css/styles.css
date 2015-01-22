@@ -17,6 +17,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	line-height: 135%;
 	color: white;
+	
 }
 
 body {
@@ -69,7 +70,7 @@ section {
 }
 
 .color-5 {
-	background-color: #CCCCCC;
+	background-color: white;
 }
 
 
@@ -86,7 +87,7 @@ section {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 5px solid #666666;
+	border: 5px solid #FFFFFF;
 	height: 100px;
 	width: 100px;
 }
