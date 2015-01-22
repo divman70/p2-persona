@@ -19,8 +19,12 @@ p {
 }
 
 body {
-	/*background-image: url('../img/otis_redding.png');*/
-	background-color: #FFFFFF;
+	background-image: url('../img/fog.jpg');
+	/*background-color: #FFFFFF;8*/
+}
+
+.footer {
+	background-color: black;
 }
 
 /* Layout for Style Tile*/
