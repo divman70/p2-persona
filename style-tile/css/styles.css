@@ -110,10 +110,14 @@ em {
 }
 
 /* link styles */
-a {
+a	 {
 	color: #FF0000;
+	text-decoration: none;
 }
 
+a:hover  {
+	color: white;
+}
 
 /* Show Grid */
 .showgrid {
