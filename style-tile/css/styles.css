@@ -1,6 +1,6 @@
 /* Set Your Own Margin & Padding */
 .pick {
-	margin-top: 15px;
+	margin-top: 40px;
 }
 
 .texturebox {
@@ -116,7 +116,7 @@ a	 {
 }
 
 a:hover  {
-	color: white;
+	color: #666666;
 }
 
 /* Show Grid */
